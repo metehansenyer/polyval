@@ -1,6 +1,6 @@
 {
   "name": "polyval",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Advanced, multilingual and customizable validation library",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -19,7 +19,7 @@
     "multilingual",
     "custom"
   ],
-  "author": "",
+  "author": "Metehan Şenyer",
   "license": "MIT",
   "dependencies": {
     "zod": "^3.25.20"
@@ -37,5 +37,13 @@
   },
   "files": [
     "dist/**/*"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/metehansenyer/polyval.git"
+  },
+  "homepage": "https://github.com/metehansenyer/polyval#readme",
+  "bugs": {
+    "url": "https://github.com/metehansenyer/polyval/issues"
+  }
 }
