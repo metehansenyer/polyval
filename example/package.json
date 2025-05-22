@@ -1,0 +1,22 @@
+{
+  "name": "polyval-example",
+  "version": "1.0.0",
+  "description": "PolyVal usage example",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts"
+  },
+  "keywords": ["validation", "example", "polyval"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "polyval": "1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.5.9",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
+} 
